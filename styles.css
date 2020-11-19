@@ -11,9 +11,13 @@ body {
 
 }
 
+.grid {
+    padding: 30px;
+    border-radius: 15px;
+}
 .first-grid {
     background-color: hsl(263, 55%, 52%);
-    border-radius: 15px;
+    
     color:hsl(0, 0%, 100%);
     padding: 30px;
     position:relative;
@@ -33,25 +37,21 @@ svg {
 
 .second-grid {
     background-color:hsl(217, 19%, 35%);
-    border-radius: 15px;
     color:hsl(0, 0%, 100%);
 }
 
 .third-grid {
     background-color:hsl(0, 0%, 100%);
-    border-radius: 15px;
     color: hsl(219, 29%, 14%);
 }
 
 .fourth-grid {
     background-color: hsl(219, 29%, 14%) ;
-    border-radius: 15px;
     color:hsl(0, 0%, 100%);
 }
 
 .fifth-grid {
     background-color:hsl(0, 0%, 100%);
-    border-radius: 15px;
     color: hsl(219, 29%, 14%);
 
 }
