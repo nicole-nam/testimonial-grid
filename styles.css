@@ -13,7 +13,7 @@ body {
 
 svg {
   position: absolute;
-  margin: -80px 120px;
+  margin: -70px 120px;
   z-index: -1;
 }
 
@@ -23,7 +23,11 @@ svg {
   margin-bottom: 1.5rem;
 }
 
-.first-grid {
+.grid img {
+  float: left;
+}
+
+.first-item {
   background-color: hsl(263, 55%, 52%);
 
   color: hsl(0, 0%, 100%);
@@ -32,47 +36,36 @@ svg {
   z-index: 0;
 }
 
-.first-grid img {
-  float: left;
+.first-item img {
   border: 3px solid hsl(263, 55%, 70%);
 }
 
-.second-grid {
+.second-item {
   background-color: hsl(217, 19%, 35%);
   color: hsl(0, 0%, 100%);
 }
 
-.second-grid img {
-  float: left;
+.second-item img {
   border: 3px solid hsl(0, 0%, 81%);
 }
 
-.third-grid {
+.third-item {
   background-color: hsl(0, 0%, 100%);
   color: hsl(219, 29%, 14%);
 }
 
-.third-grid img {
-  float: left;
-}
-
-.fourth-grid {
+.fourth-item {
   background-color: hsl(219, 29%, 14%);
   color: hsl(0, 0%, 100%);
 }
 
-.fourth-grid img {
-  float: left;
+.fourth-item img {
   border: 3px solid hsl(263, 55%, 70%);
 }
 
-.fifth-grid {
+.fifth-item {
   background-color: hsl(0, 0%, 100%);
   color: hsl(219, 29%, 14%);
-}
-
-.fifth-grid img {
-  float: left;
 }
 
 .grid img {
@@ -89,8 +82,10 @@ svg {
 }
 
 .highlight {
-  margin: 40px 0px;
-  line-height: 2;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 .grid p {
@@ -102,29 +97,32 @@ svg {
 /* MEDIA QUERY */
 
 @media screen and (min-width: 1440px) {
+  body {
+    padding: 0px 40px;
+  }
+
   .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    margin: 200px 50px;
   }
 
   .grid {
     margin-bottom: 0px;
   }
-  .first-grid {
+  .first-item {
     grid-column: 1/3;
   }
 
-  .third-grid {
+  .third-item {
     grid-column: 1/2;
   }
 
-  .fourth-grid {
+  .fourth-item {
     grid-column: 2/4;
   }
 
-  .fifth-grid {
+  .fifth-item {
     grid-column: 4/4;
     grid-row: 1/3;
   }
@@ -135,8 +133,11 @@ svg {
   }
 
   .grid p {
-      font-size: 16px;
-      /* text-align: justify; */
+    font-size: 16px;
+  }
+
+  .highlight {
+    font-weight: 500;
   }
 
   svg {
