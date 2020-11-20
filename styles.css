@@ -11,7 +11,7 @@ body {
 
 svg {
   position: absolute;
-  margin: -60px 120px;
+  margin: -80px 120px;
   z-index: -1;
 }
 
@@ -19,6 +19,7 @@ svg {
   padding: 30px;
   border-radius: 15px;
 }
+
 .first-grid {
   background-color: hsl(263, 55%, 52%);
 
@@ -40,7 +41,7 @@ svg {
 
 .second-grid img {
   float: left;
-  border: 3px solid hsl(263, 55%, 70%);
+  border: 3px solid  hsl(0, 0%, 81%);
 }
 
 .third-grid {
@@ -50,7 +51,7 @@ svg {
 
 .third-grid img {
   float: left;
-  border: 3px solid hsl(263, 55%, 70%);
+
 }
 
 .fourth-grid {
@@ -70,7 +71,7 @@ svg {
 
 .fifth-grid img {
   float: left;
-  border: 3px solid hsl(263, 55%, 70%);
+
 }
 
 .grid img {
@@ -81,8 +82,18 @@ svg {
   padding: 5px 0px 0px 100px;
 }
 
+.name p {
+  line-height: 1.5;
+  opacity: 50%;
+}
+
 .highlight {
   margin: 40px 0px;
   line-height: 2;
 }
 
+.grid p {
+  font-size: 13px;
+  opacity: 70%;
+  line-height: 1.5;
+}
