@@ -129,6 +129,7 @@ svg {
   .highlight {
     font-size: 1.7rem;
     line-height: 1.2;
+    margin-top: 15px;
   }
 
   .grid p {
@@ -140,6 +141,6 @@ svg {
   }
 
   svg {
-    margin: -70px 400px;
+    margin: -65px 350px;
   }
 }
